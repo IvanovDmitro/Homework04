@@ -13,7 +13,7 @@ public class Cat extends Animal {
 
     @Override
     void run(double meters) {
-        if (meters <= 200) {
+        if (meters > 0 && meters <= 200) {
             System.out.println(getName() + " run " + meters);
         } else {
             System.out.println(getName() + " can run only 200 meters");
