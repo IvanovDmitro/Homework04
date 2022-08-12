@@ -2,18 +2,12 @@ public class App {
     static int howManyCats;
     static int howManyDogs;
     static int howManyAnimals;
-    static String name;
 
     public static void main(String[] args) {
-        Animal cat = new Cat(name);
-        Animal dog = new Dog(name);
-        Animal cat1 = new Cat(name);
-        Animal dog1 = new Dog(name);
-
-        cat.setName("Barsik");
-        dog.setName("Bobik");
-        cat1.setName("Lelik");
-        dog1.setName("Bolik");
+        Animal cat = new Cat("Barsik");
+        Animal dog = new Dog("Bobik");
+        Animal cat1 = new Cat("Lelik");
+        Animal dog1 = new Dog("Bolik");
 
         cat.run(150);
         cat.swim(250);

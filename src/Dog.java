@@ -1,9 +1,8 @@
 public class Dog extends Animal {
     private static int dogCount;
-    private String name;
 
     public Dog(String name) {
-        this.name = name;
+        super(name);
         dogCount++;
     }
 
@@ -27,15 +26,5 @@ public class Dog extends Animal {
         } else {
             System.out.println(getName() + " can swim only 10 meters");
         }
-    }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public void setName(String name) {
-        this.name = name;
     }
 }

@@ -1,7 +1,18 @@
-# Default ignored files
-/shelf/
-*.xml
-target/
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
 *.iml
-*.out/
+*.iws
+*.class
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
 
