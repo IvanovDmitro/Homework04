@@ -1,6 +1,6 @@
 public abstract class Animal {
-    private String name;
     private static int countAnimals;
+    private String name;
 
     public Animal(String name) {
         this.name = name;
